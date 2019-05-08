@@ -55,6 +55,7 @@ results_Valid_summ_i5.csv            - File containing count of observed valid p
 ## Results Log 
 The log file contains the following information, which is also displayed on screen
 
+```
 Status ................................ : Finished
 Input File ............................ : undetermined.fastq.gz
 Output File ........................... : output/results_reads.fastq
@@ -96,5 +97,5 @@ Compatible Non Valid (i7=0m,i5=1m) .... :
 Compatible Non Valid (i7=1m,i5=0m) .... : 
 Compatible Non Valid (i7=1m,i5=1m) .... : 
 Compatible Non Valid Total ............ : 
-
+```
 
