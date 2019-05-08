@@ -2,7 +2,7 @@
 Tool to extract and count invalid index pairs
 
 ## Usage
-
+```
 index_hopping_v05.2.py [-h] -i INPUT -s SAMPLES [-r ROW]
                               [-dr DEMUXREADS] [-o OUTPUT] [-n PRINTEACH]
                               [-x MAX] [-iv] [-v]
@@ -30,6 +30,7 @@ optional arguments:
   -iv, --ignore-valid   Do not save valid pairs (undemuxed because of 1
                         mismatch) in output fastq file
   -v, --verbose         Makes verbose
+```
 
 ## Example
 In this case we assume that 1,000,000 reads were successfully demuxed with 0 mismatches, and the
