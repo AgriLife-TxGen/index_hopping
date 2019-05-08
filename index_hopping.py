@@ -5,7 +5,6 @@ import os
 import gzip
 import pandas as pd
 import argparse
-import multiprocessing
 import time
 import numpy as np
 
