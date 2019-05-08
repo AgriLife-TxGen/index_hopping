@@ -1,7 +1,7 @@
 # index_hopping
 Tool to extract and count invalid index pairs
 
-##Usage
+## Usage
 
 index_hopping_v05.2.py [-h] -i INPUT -s SAMPLES [-r ROW]
                               [-dr DEMUXREADS] [-o OUTPUT] [-n PRINTEACH]
@@ -31,14 +31,14 @@ optional arguments:
                         mismatch) in output fastq file
   -v, --verbose         Makes verbose
 
-##Example
+## Example
 In this case we assume that 1,000,000 reads were successfully demuxed with 0 mismatches, and the
 reads that were not assigned to samples, are stored in the file undetermined.fastq.gz, while the
 barcode information is stored in the sample sheet used for demuxing, named samplesheet.csv
 
 index_hopping.py -i undetermined.fastq.gz -s samplesheet.csv -o output/results -dr 1000000
 
-##Output
+## Output
 Several files are created with the specified prefix:
 
 results_reads.fastq                  - fastq file containing the reads containing compatible barcodes
@@ -52,7 +52,7 @@ results_Valid_confusion_matrix.csv   - File containing count of observed valid p
 results_Valid_summ_i7.csv            - File containing count of observed valid pairs for each i7 barcode
 results_Valid_summ_i5.csv            - File containing count of observed valid pairs for each i5 barcode
 
-## Results LogThe
+## Results Log 
 The log file contains the following information, which is also displayed on screen
 
 Status ................................ : Finished
