@@ -40,7 +40,7 @@ index_hopping.py -i undetermined.fastq.gz -s samplesheet.csv -o output/results -
 
 ## Output
 Several files are created with the specified prefix:
-
+```
 results_reads.fastq                  - fastq file containing the reads containing compatible barcodes
 results_log.txt                      - Log File with statistics
 results_NoValid_confusion_list.csv   - File containing count of observed invalid pairs, as a list
@@ -51,6 +51,7 @@ results_Valid_confusion_list.csv     - File containing count of observed valid p
 results_Valid_confusion_matrix.csv   - File containing count of observed valid pairs, as a matrix 
 results_Valid_summ_i7.csv            - File containing count of observed valid pairs for each i7 barcode
 results_Valid_summ_i5.csv            - File containing count of observed valid pairs for each i5 barcode
+```
 
 ## Results Log 
 The log file contains the following information, which is also displayed on screen
