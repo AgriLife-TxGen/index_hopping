@@ -37,7 +37,9 @@ In this case we assume that 1,000,000 reads were successfully demuxed with 0 mis
 reads that were not assigned to samples, are stored in the file undetermined.fastq.gz, while the
 barcode information is stored in the sample sheet used for demuxing, named samplesheet.csv
 
+```
 index_hopping.py -i undetermined.fastq.gz -s samplesheet.csv -o output/results -dr 1000000
+```
 
 ## Output
 Several files are created with the specified prefix:
