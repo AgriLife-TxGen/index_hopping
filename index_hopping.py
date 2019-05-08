@@ -9,6 +9,12 @@ import time
 import numpy as np
 
 # --------------------------------
+# index_hopping.py
+# Created on: March 2019
+#     Author: Agrilife Genomics and Bioinformatics Services (TxGen Lab)
+#
+# Releases
+#
 # v05.2 - Accepts parameter "demuxed_reads" to compute stats directly
 #         Single function to show stats to screen and file
 #         Provides now complete stats on number of reads and index hopping rate
